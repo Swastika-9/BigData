@@ -26,3 +26,17 @@ data/output/
 
 # Logs
 *.log
+
+# Raw datasets
+data/raw/
+data/raw.zip
+
+# MySQL connector
+mysql-connector-j-9.2.0.jar
+
+# Spark output
+data/output/
+
+# Python cache
+__pycache__/
+*.pyc
