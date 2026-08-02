@@ -1,0 +1,58 @@
+route_id,description
+rt_0000,No route description available
+rt_0001,No route description available
+rt_0002,No route description available
+rt_0003,No route description available
+rt_0004,No route description available
+rt_0005,No route description available
+rt_0006,No route description available
+rt_0007,No route description available
+rt_0008,No route description available
+rt_0009,No route description available
+rt_00010,No route description available
+rt_00011,No route description available
+rt_00012,No route description available
+rt_00013,No route description available
+rt_00014,No route description available
+rt_00015,No route description available
+rt_00016,No route description available
+rt_00017,No route description available
+rt_00018,No route description available
+rt_00019,No route description available
+rt_00020,No route description available
+rt_00021,No route description available
+rt_00022,No route description available
+rt_00023,No route description available
+rt_00024,No route description available
+rt_00025,No route description available
+rt_00026,No route description available
+rt_00027,No route description available
+rt_00028,No route description available
+rt_00029,No route description available
+R_21-404-_-y05-6-I-1,Westway Caterham - Crawford Crescent
+R_21-404-_-y05-6-O-2,Crawford Crescent - Westway Caterham
+R_21-404-_-y05-7-I-1,Westway Caterham - Crawford Crescent
+R_21-404-_-y05-7-O-2,Crawford Crescent - Westway Caterham
+R_21-404-_-y05-8-I-1,Westway Caterham - Crawford Crescent
+R_21-404-_-y05-8-O-2,Crawford Crescent - Westway Caterham
+R_21-407-_-y05-11-I-1,Caterham Valley - Sutton / Marshalls Road
+R_21-407-_-y05-11-O-2,Sutton / Marshalls Road - Caterham Valley
+R_21-407-_-y05-14-I-1,Caterham Valley - Sutton / Marshalls Road
+R_21-407-_-y05-14-O-2,Sutton / Marshalls Road - Caterham Valley
+R_21-464-_-y05-55538-I-1,New Addington Tram Stop - Biggin Hill / Black Horse
+R_21-464-_-y05-55538-I-2,New Addington Tram Stop - Tatsfield Village / Old Ship
+R_21-464-_-y05-55538-O-3,Tatsfield Village / Old Ship - New Addington Tram Stop
+R_21-464-_-y05-55539-I-1,New Addington Tram Stop - Biggin Hill / Black Horse
+R_21-464-_-y05-55539-I-2,New Addington Tram Stop - Tatsfield Village / Old Ship
+R_21-464-_-y05-55539-O-3,Tatsfield Village / Old Ship - New Addington Tram Stop
+R_21-464-_-y05-55541-I-1,New Addington Tram Stop - Biggin Hill / Black Horse
+R_21-464-_-y05-55541-I-2,New Addington Tram Stop - Tatsfield Village / Old Ship
+R_21-464-_-y05-55541-O-3,Biggin Hill / Black Horse - New Addington Tram Stop
+R_21-464-_-y05-55541-O-4,Tatsfield Village / Old Ship - New Addington Tram Stop
+R_21-465-_-y05-7-I-1,Townfield Court - Cromwell Road Bus Station
+R_21-465-_-y05-7-I-2,Townfield Court - Cromwell Road Bus Station
+R_21-465-_-y05-7-O-3,Cromwell Road Bus Station - South Street/ Rose Hill
+R_21-R68-_-y05-58885-I-1,Hampton Court - Kew Retail Park
+R_21-R68-_-y05-58885-O-2,Kew Retail Park - Hampton Court
+R_21-S1-_-y05-59996-I-1,Victoria Road / Lavender Fields - Banstead / Marks & Spencer
+R_21-S1-_-y05-59996-O-2,Banstead / Marks & Spencer - Victoria Road / Lavender Fields
