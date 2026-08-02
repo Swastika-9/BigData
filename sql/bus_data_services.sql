@@ -1,0 +1,52 @@
+-- MySQL dump 10.13  Distrib 8.0.42, for Win64 (x86_64)
+--
+-- Host: localhost    Database: bus_data
+-- ------------------------------------------------------
+-- Server version	8.0.46
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `services`
+--
+
+DROP TABLE IF EXISTS `services`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `services` (
+  `service_code` text,
+  `line_name` text,
+  `origin` text,
+  `destination` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `services`
+--
+
+LOCK TABLES `services` WRITE;
+/*!40000 ALTER TABLE `services` DISABLE KEYS */;
+INSERT INTO `services` VALUES ('PG0007245:497','101A','Ellesmere Port Bus Interchange','Outlet Village'),('PG0007245:183','4','Bangor','Holyhead'),('PG0007245:103','5','Llandudno','Caernarfon'),('PG0007245:455','4A','Bangor','Llangefni'),('PG0007245:432','58','Bangor','Llangoed'),('PG0007245:367','5C','Bangor','Caernarfon'),('PG0007245:363','5D','Bangor','Llandudno'),('PG0007245:103','5','Bangor','Llandudno'),('PG0007245:163','62','Bangor','Amlwch'),('PG0007245:492','G9','Tesco','Tesco'),('PG0007245:493','562','Amlwch','Llanfachraeth'),('PG0007245:432','58L','Bangor','Llangoed'),('PG0007245:432','58P','Bangor','Llangoed'),('PG0007245:367','5C','Llandudno','Caernarfon'),('PG0007245:163','62C','Bangor','Amlwch'),('PG0007245:491','G8C','Adwy\'r Nant','Tesco'),('PG0007245:491','G8L','Adwy\'r Nant','Tesco'),('PG0007245:492','G9A','Tesco','Tesco'),('PG0007245:183','X43','Talwrn','Bangor Coleg Menai'),('PG0007245:338','15','Chester','Saughall'),('PG0007245:502','1Y','Wrexham','Chester'),('PG0007245:254','4B','Chester','Broughton'),('PG0007245:254','4','Chester','Mold'),('PG0007245:254','4S','Chester','Mold'),('PG0007245:495','F5','Mold','Queensferry'),('PG0007245:496','101','Ellesmere Port Bus Interchange','Outlet Village'),('PG0007245:256','10','Chester','Connahs Quay'),('PG0007245:256','10A','Chester','Flint'),('PG0007245:494','11A','Chester','Flint'),('PG0007245:504','11YP','Rhyl','Chester'),('PG0007245:334','14A','Chester','Blacon'),('PG0007245:338','15B','Chester','Saughall'),('PG0007245:338','15A','Chester','Saughall'),('PG0007245:334','14','Chester','Blacon'),('PG0007245:154','X4','Chester','Mold'),('PG0007245:352','13','Prestatyn','Llandudno'),('PG0007245:118','14','Llysfaen','Conwy'),('PG0007245:118','15','Llysfaen','Conwy'),('PG0007245:155','23','Tan Lan','Colwyn Bay'),('PG0007245:278','24','Colwyn Bay','Mochdre'),('PG0007245:172','25','Eglwysbach','Llandudno'),('PG0007245:423','26','Great Orme or Tyn Y Coed','Llandudno'),('PG0007245:169','27','Tan Lan','Conwy'),('PG0007245:261','11','Rhyl','Chester'),('PG0007245:214','12','Rhyl','Llandudno'),('PG0007245:147','35','Rhyl','Prestatyn via Dyserth, Rhuddlan Circular'),('PG0007245:147','36','Rhyl','Prestatyn via Dyserth, Rhuddlan Circular'),('PG0007245:148','52','Rhyl','Denbigh'),('PG0007245:448','76','Denbigh','Llangwyfan'),('PG0007245:100','83','Rhyl','Bruton Park'),('PG0007245:100','84','Rhyl','Park View'),('PG0007245:419','85','Rhyl','Trellewelyn Road'),('PG0007245:257','11C','Rhyl','Holywell'),('PG0007245:257','11F','Rhyl','Holywell'),('PG0007245:257','11M','Holywell','Rhyl'),('PG0007245:257','11X','Rhyl','Holywell'),('PG0007245:214','12','Bus Station','Palladium'),('PG0007245:148','T51','Rhyl','Denbigh'),('PG0007245:100','83A','Rhyl','Bruton Park'),('PG0007245:100','84A','Rhyl','Park View'),('PG0007245:257','11M','Chester','Holywell'),('PG0007245:214','X12','Rhyl','Llandudno'),('PG0007245:80','3','Wrexham','Penycae'),('PG0007245:445','5','Wrexham','Llangollen'),('PG0007245:501','6','Wrexham Bus Station','Wrexham Bus Station'),('PG0007245:223','7','Wrexham','Caia Park'),('PG0007245:223','8','Wrexham','Caia Park'),('PG0007245:437','14','Wrexham','Brymbo'),('PG0007245:282','1','Wrexham','Chester'),('PG0007245:222','21','Wrexham','Summerhill'),('PG0007245:190','27','Wrexham','Mold'),('PG0007245:490','2S','Rhyn Park School','Oswestry'),('PG0007245:177','33','Wrexham','Llay'),('PG0007245:80','4A','Wrexham','Penycae'),('PG0007245:80','4C','Wrexham','Penycae'),('PG0007245:445','5C','Wrexham','Llangollen'),('PG0007245:82','11A','Wrexham Bus Station','Wrexham Bus Station'),('PG0007245:222','21H','Wrexham','Summerhill'),('UZ000ABLO:404','404','Crawford Crescent','Westway Caterham'),('PK0003436:5','404','Crawford Crescent','Westway Caterham'),('PK0003436:2','407','Sutton / Marshalls Road','Caterham Valley'),('PK0003436:4','464','Tatsfield Village / Old Ship','New Addington Tram Stop'),('PK0001815:90','465','Cromwell Road Bus Station','South Street/ Rose Hill'),('PK0001815:15','R68','Kew Retail Park','Hampton Court'),('PK0001816:107','S1','Banstead / Marks & Spencer','Victoria Road / Lavender Fields');
+/*!40000 ALTER TABLE `services` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2026-08-02 22:12:45
